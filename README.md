@@ -1,2 +1,2 @@
 # Automation-MacOS
-Small automation for the Mac OS
+Small collection of automation project for the Mac OS
