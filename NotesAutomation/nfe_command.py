@@ -100,20 +100,10 @@ class NoteAutamator:
     def createFolder(self):
         if os.path.isdir(self.path + "/" + self.folderName):
             q = str(input("This folder already exists. Would you like to add the file into the existing folder?")).lower()
-            if q == "n" or q == "no":
-                print(".... Terminating process")
-                sys.exit()
-            elif q == "y" or q == "yes":
+            if q == "y" or q == "yes":
                 print("Adding file to existing folder.")
             else:
-                print("You did not comply with instructions. \n")
-                os.chdir(self.path + "/StartingSublime")
-                monaLisa = open("MonaLisaText.txt", "r")
-                rickAndMorty = open("RickAndMorty.txt", "r")
-                print(rickAndMorty.read())
-                monaLisa.close()
-                rickAndMorty.close()
-                print("Look up.")
+                print(".... Terminating process")
                 sys.exit()
         else:
             os.mkdir(self.folderName)
