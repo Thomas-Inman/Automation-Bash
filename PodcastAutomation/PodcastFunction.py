@@ -16,21 +16,21 @@ fileName = ""
 
 # Create functions
 def createScript():
-    os.chdir("/Users/thomasinman/Podcast/script")
+    os.chdir(path + "/Script")
     fileName = str(projectName + extensions["Script"])
     if not os.path.isfile("./" + fileName):
         open(fileName, "a").close()
     os.system("open " + fileName + ' -a "Sublime Text"')
 
 def createQTP():
-    os.chdir("/Users/thomasinman/Podcast/RawRecording")
+    os.chdir(path + "/RawRecording")
     fileName = str(projectName + extensions["RawRecording"])
     if not os.path.isfile("./" + fileName):
         open(fileName, "a").close()
     os.system('open -a "QuickTime Player"')
 
 def createFinal():
-    os.chdir("/Users/thomasinman/Podcast/Final")
+    os.chdir(path + "/Final")
     fileName = str(projectName + extensions["Final"])
     if not os.path.isfile("./" + fileName):
         open(fileName, "a").close()
