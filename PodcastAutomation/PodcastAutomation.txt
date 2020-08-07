@@ -1,0 +1,8 @@
+Steps to create a podcast:
+    1. Make a script with a text file (Add script to the appropriate folder)
+    2. Make the raw audio recording with QuickTime Player (Add raw recording to the appropriate folder)
+    3. Edit the raw recording with Audacity (Add final product to the appropriate folder)
+
+Create Script function
+    * Change directory to the script folder
+    *
