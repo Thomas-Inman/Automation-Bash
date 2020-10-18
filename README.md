@@ -1,5 +1,5 @@
 # Automation-Files
-Small collection of automation projects for the Mac OS
+Small collection of automation projects for a bash shell
 
 ---
 
