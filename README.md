@@ -1,4 +1,4 @@
-# Automation-MacOS
+# Automation-Files
 Small collection of automation projects for the Mac OS
 
 ---
